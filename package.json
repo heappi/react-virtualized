@@ -37,9 +37,7 @@
     "watch:jest": "jest --no-watchman --watch"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
+    "hooks": {}
   },
   "files": [
     "dist",
@@ -119,12 +117,12 @@
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1",
     "puppeteer": "^2.0.0",
-    "react": "^17.0.1",
+    "react": "canary",
     "react-codemirror": "^1.0.0",
-    "react-dom": "^17.0.1",
+    "react-dom": "canary",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-test-renderer": "^17.0.1",
+    "react-test-renderer": "canary",
     "rimraf": "^3.0.0",
     "rollup": "^1.26.5",
     "rollup-plugin-babel": "^4.3.3",
@@ -154,5 +152,6 @@
     "transform": [
       "loose-envify"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
